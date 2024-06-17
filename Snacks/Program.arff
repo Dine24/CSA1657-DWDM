@@ -1,0 +1,12 @@
+@relation items
+@attribute hotdogs{true,false}
+@attribute buns{true,false}
+@attribute ketchup{true,false}
+@attribute coke{true,false}
+@attribute chips{true,false}
+@data
+true true true false false
+true true false false false
+true false false true true 
+false false false true true
+true false false true true
